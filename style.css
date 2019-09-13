@@ -1,0 +1,41 @@
+body {
+  font-size: 1.5em;
+  justify-content: center;
+  line-height: 1.5;
+  margin: 0;
+  padding: 1em 3em;
+}
+#text {
+  max-width: 800px;
+  margin: 0 auto;
+}
+#modal {
+  display: none;
+  position: fixed;
+  top: 30%;
+  left: 30%;
+  width: 600px;
+  height: 300px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+  z-index: 1;
+  background-color: #444;
+  color: #fff;
+}
+#modal.show {
+  align-items: center;
+  display: inline;
+}
+#modal span {
+  margin-bottom: 1em;
+}
+button {
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #444;
+  color: #eee;
+}
